@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
-    font-family: 'Nunito', sans-serif;
-    
+    font-family: 'Nunito', sans-serif; 
 }
 
 header {
@@ -17,7 +21,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 3px 85px;
-    
 }
 
 ul {
@@ -37,6 +40,17 @@ a {
     color: #E5E5E5;
 }
 
+p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #683594;
+}
+
 .home {
     display: flex;
     align-items: center;
@@ -50,13 +64,10 @@ a {
 }
 
 .abouttext h1 {
-    font-size: 60px;
     color: #B0D135;
-    text-transform: uppercase;
 }
 
 .abouttext p {
-    font-size: 24px;
     color: #fff;
     line-height: 36px;
     padding: 21px 0 30px 0;
@@ -147,15 +158,7 @@ a {
     padding-top: 20px;
 }
 
-.text h1 {
-    font-size: 60px;
-    text-transform: uppercase;
-    color: #683594;
-}
-
 .text p {
-    font-size: 24px;
-    line-height: 36px;
     color: #383535;
     padding: 10px 0;
 }
@@ -336,15 +339,9 @@ position: relative;
     padding:50px 100px;
 }
 
-.supporters h1 {
-    font-size: 60px;
-    text-transform: uppercase;
-    color: #683594;
-}
+
 
 .supporters p {
-    font-size: 24px;
-    line-height: 36px;
     color: #383535;
     padding-bottom: 50px;
     padding:10px 100px 60px 0;
@@ -414,6 +411,17 @@ span {
     margin: 30px 0 100px 20px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #683594;
+    color: #B0D135;
+}
+
+nav a:hover {
+    color:#B0D135;;
+}
+
+
 
 
 
